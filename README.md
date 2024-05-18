@@ -3,14 +3,14 @@
 1. Clone the repo<br>
 `$ git clone https://github.com/mosihere/sample_task.git`<br><br>
 2. Create a Virtualenv<br>
-`# python3 -m venv .env`<br><br>
+`$ python3 -m venv .env`<br><br>
 3. Activate the virtualenv<br>
 `$ source .env/bin/activate`<br><br>
 4. Install dependecies<br>
-`# python -m pip install -r requirements.txt`<br><br>
+`$ python -m pip install -r requirements.txt`<br><br>
 5. run the migration files and migrate the db<br>
-`python manage.py makemigrations`<br>
-`python manage.py migrate`<br><br>
+`$ python manage.py makemigrations`<br>
+`$ python manage.py migrate`<br><br>
 
 # Features
 1. Customized Pagination
